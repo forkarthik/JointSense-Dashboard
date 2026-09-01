@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Admin\Desktop\healthcare\JointSenseApp\app\src\main\AndroidManifest.xml:2:1-18:12
-INJECTED from C:\Users\Admin\Desktop\healthcare\JointSenseApp\app\src\main\AndroidManifest.xml:2:1-18:12
-INJECTED from C:\Users\Admin\Desktop\healthcare\JointSenseApp\app\src\main\AndroidManifest.xml:2:1-18:12
-INJECTED from C:\Users\Admin\Desktop\healthcare\JointSenseApp\app\src\main\AndroidManifest.xml:2:1-18:12
+ADDED from C:\Users\Admin\Desktop\healthcare\JointSenseApp\app\src\main\AndroidManifest.xml:2:1-20:12
+INJECTED from C:\Users\Admin\Desktop\healthcare\JointSenseApp\app\src\main\AndroidManifest.xml:2:1-20:12
+INJECTED from C:\Users\Admin\Desktop\healthcare\JointSenseApp\app\src\main\AndroidManifest.xml:2:1-20:12
+INJECTED from C:\Users\Admin\Desktop\healthcare\JointSenseApp\app\src\main\AndroidManifest.xml:2:1-20:12
 MERGED from [androidx.compose.material3:material3:1.1.1] C:\Users\Admin\.gradle\caches\8.13\transforms\1dc44b78e86d9a882bf88d7ae40d0a29\transformed\material3-1.1.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-common:2.7.7] C:\Users\Admin\.gradle\caches\8.13\transforms\210536e14bfd4b33326cf588f04403eb\transformed\navigation-common-2.7.7\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-runtime:2.7.7] C:\Users\Admin\.gradle\caches\8.13\transforms\3c40ebe046252bfec22f061d470d1bec\transformed\navigation-runtime-2.7.7\AndroidManifest.xml:17:1-22:12
@@ -70,8 +70,8 @@ MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\Admin\.gradle\c
 	xmlns:android
 		ADDED from C:\Users\Admin\Desktop\healthcare\JointSenseApp\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\Admin\Desktop\healthcare\JointSenseApp\app\src\main\AndroidManifest.xml:3:5-17:19
-INJECTED from C:\Users\Admin\Desktop\healthcare\JointSenseApp\app\src\main\AndroidManifest.xml:3:5-17:19
+ADDED from C:\Users\Admin\Desktop\healthcare\JointSenseApp\app\src\main\AndroidManifest.xml:3:5-19:19
+INJECTED from C:\Users\Admin\Desktop\healthcare\JointSenseApp\app\src\main\AndroidManifest.xml:3:5-19:19
 MERGED from [androidx.emoji2:emoji2:1.4.0] C:\Users\Admin\.gradle\caches\8.13\transforms\4d7c4d70b0ab9d2dd818ef9a3b012c37\transformed\emoji2-1.4.0\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.emoji2:emoji2:1.4.0] C:\Users\Admin\.gradle\caches\8.13\transforms\4d7c4d70b0ab9d2dd818ef9a3b012c37\transformed\emoji2-1.4.0\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Admin\.gradle\caches\8.13\transforms\03d272b7512de0c5bea62b456901697a\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:23:5-33:19
@@ -97,31 +97,35 @@ MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\Admin\.gradle\c
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.12.0] C:\Users\Admin\.gradle\caches\8.13\transforms\a9c56ccb6e71965046cabf41db11b873\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\Admin\Desktop\healthcare\JointSenseApp\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\Admin\Desktop\healthcare\JointSenseApp\app\src\main\AndroidManifest.xml:8:9-35
 	android:label
-		ADDED from C:\Users\Admin\Desktop\healthcare\JointSenseApp\app\src\main\AndroidManifest.xml:5:9-41
+		ADDED from C:\Users\Admin\Desktop\healthcare\JointSenseApp\app\src\main\AndroidManifest.xml:7:9-41
+	android:roundIcon
+		ADDED from C:\Users\Admin\Desktop\healthcare\JointSenseApp\app\src\main\AndroidManifest.xml:6:9-48
+	android:icon
+		ADDED from C:\Users\Admin\Desktop\healthcare\JointSenseApp\app\src\main\AndroidManifest.xml:5:9-43
 	android:allowBackup
 		ADDED from C:\Users\Admin\Desktop\healthcare\JointSenseApp\app\src\main\AndroidManifest.xml:4:9-35
 	android:theme
-		ADDED from C:\Users\Admin\Desktop\healthcare\JointSenseApp\app\src\main\AndroidManifest.xml:7:9-48
+		ADDED from C:\Users\Admin\Desktop\healthcare\JointSenseApp\app\src\main\AndroidManifest.xml:9:9-48
 activity#com.jointsense.app.MainActivity
-ADDED from C:\Users\Admin\Desktop\healthcare\JointSenseApp\app\src\main\AndroidManifest.xml:8:9-16:20
+ADDED from C:\Users\Admin\Desktop\healthcare\JointSenseApp\app\src\main\AndroidManifest.xml:10:9-18:20
 	android:exported
-		ADDED from C:\Users\Admin\Desktop\healthcare\JointSenseApp\app\src\main\AndroidManifest.xml:10:13-36
+		ADDED from C:\Users\Admin\Desktop\healthcare\JointSenseApp\app\src\main\AndroidManifest.xml:12:13-36
 	android:theme
-		ADDED from C:\Users\Admin\Desktop\healthcare\JointSenseApp\app\src\main\AndroidManifest.xml:11:13-52
+		ADDED from C:\Users\Admin\Desktop\healthcare\JointSenseApp\app\src\main\AndroidManifest.xml:13:13-52
 	android:name
-		ADDED from C:\Users\Admin\Desktop\healthcare\JointSenseApp\app\src\main\AndroidManifest.xml:9:13-41
+		ADDED from C:\Users\Admin\Desktop\healthcare\JointSenseApp\app\src\main\AndroidManifest.xml:11:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Admin\Desktop\healthcare\JointSenseApp\app\src\main\AndroidManifest.xml:12:13-15:29
+ADDED from C:\Users\Admin\Desktop\healthcare\JointSenseApp\app\src\main\AndroidManifest.xml:14:13-17:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Admin\Desktop\healthcare\JointSenseApp\app\src\main\AndroidManifest.xml:13:17-69
+ADDED from C:\Users\Admin\Desktop\healthcare\JointSenseApp\app\src\main\AndroidManifest.xml:15:17-69
 	android:name
-		ADDED from C:\Users\Admin\Desktop\healthcare\JointSenseApp\app\src\main\AndroidManifest.xml:13:25-66
+		ADDED from C:\Users\Admin\Desktop\healthcare\JointSenseApp\app\src\main\AndroidManifest.xml:15:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Admin\Desktop\healthcare\JointSenseApp\app\src\main\AndroidManifest.xml:14:17-77
+ADDED from C:\Users\Admin\Desktop\healthcare\JointSenseApp\app\src\main\AndroidManifest.xml:16:17-77
 	android:name
-		ADDED from C:\Users\Admin\Desktop\healthcare\JointSenseApp\app\src\main\AndroidManifest.xml:14:27-74
+		ADDED from C:\Users\Admin\Desktop\healthcare\JointSenseApp\app\src\main\AndroidManifest.xml:16:27-74
 uses-sdk
 INJECTED from C:\Users\Admin\Desktop\healthcare\JointSenseApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Admin\Desktop\healthcare\JointSenseApp\app\src\main\AndroidManifest.xml

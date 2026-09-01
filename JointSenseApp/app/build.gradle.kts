@@ -27,6 +27,9 @@ android {
     kotlinOptions { jvmTarget = "1.8" }
     buildFeatures { compose = true }
     composeOptions { kotlinCompilerExtensionVersion = "1.5.1" }
+    aaptOptions {
+        noCompress("tflite")
+    }
 }
 dependencies {
     implementation("androidx.core:core-ktx:1.12.0")
