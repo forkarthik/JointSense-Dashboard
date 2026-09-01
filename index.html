@@ -215,7 +215,7 @@
           Data Fusion Engine
         </div>
         <h2>How Sensor + Clinical Data Merge</h2>
-        <p>The AI fusion model combines ~40 automated features with up to ~26 manual clinical features for a 66-feature composite risk assessment.</p>
+        <p>The AI fusion model combines 4 automated sensor channels with 12 manual clinical features for a multi-modal composite risk assessment.</p>
       </div>
 
       <div class="fusion-visual reveal">
@@ -223,8 +223,8 @@
         <div class="fusion-col glass-card">
           <h3 style="margin-bottom:16px; font-size:1rem; display:flex; align-items:center;">
             <i data-lucide="cpu" style="width:18px;height:18px;margin-right:6px;color:var(--accent-teal)"></i> Automated Sensor Data
-            <span class="form-badge auto" style="margin-left:8px;">40 features</span>
-          
+            <span class="form-badge auto" style="margin-left:8px;">4 channels</span>
+          </h3>
           <ul class="fusion-list sensors">
             <li><span class="dot"></span> IMU gait kinematics (stride, asymmetry, stance)</li>
             <li><span class="dot"></span> Crepitus Angle Map — novel biomarker</li>
@@ -242,8 +242,8 @@
         <div class="fusion-col glass-card">
           <h3 style="margin-bottom:16px; font-size:1rem; display:flex; align-items:center;">
             <i data-lucide="stethoscope" style="width:18px;height:18px;margin-right:6px;color:var(--accent-amber)"></i> Manual Clinical Data
-            <span class="form-badge manual" style="margin-left:8px;">~26 features</span>
-          
+            <span class="form-badge manual" style="margin-left:8px;">12 features</span>
+          </h3>
           <ul class="fusion-list manual">
             <li><span class="dot"></span> Age, BMI, gender, occupation</li>
             <li><span class="dot"></span> Previous knee injury history</li>
@@ -349,7 +349,7 @@
             <i data-lucide="stethoscope" style="width:18px;height:18px;color:var(--accent-amber)"></i>
             Manual Clinical Input
             <span class="form-badge manual">Doctor</span>
-          
+          </h3>
 
           <!-- Patient Demographics -->
           <div class="form-row">
@@ -608,7 +608,7 @@
           <p style="font-size:0.78rem; color:var(--text-muted); margin-bottom:16px;">Sensor + Clinical Fusion Model</p>
           <div style="font-family:'Outfit',sans-serif; font-size:3rem; font-weight:900; color:var(--accent-amber); line-height:1;"><span class="counter-value" data-target="73">0</span></div>
           <div style="font-size:0.82rem; color:var(--text-muted); margin-top:4px;">/ 100 — Moderate Risk</div>
-          <div style="margin-top:16px; display:flex; gap:16px; font-size:0.72rem; color:var(--text-muted);"><span>40 sensor features</span><span>26 clinical features</span></div>
+          <div style="margin-top:16px; display:flex; gap:16px; font-size:0.72rem; color:var(--text-muted);"><span>4 sensor channels</span><span>12 clinical features</span></div>
         </div>
       </div>
     </div>
