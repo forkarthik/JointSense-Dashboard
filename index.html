@@ -18,7 +18,7 @@
   <nav class="navbar" id="navbar">
     <div class="navbar-inner">
       <a href="#" class="navbar-brand">
-        <div class="brand-icon">🦴</div>
+        <div class="brand-icon"><i data-lucide="activity" style="width:20px;height:20px;color:white;"></i></div>
         JointSense
         <span class="brand-tag">Clinical Assistant</span>
       </a>
@@ -104,13 +104,13 @@
 
       <div class="philosophy-grid reveal">
         <div class="philosophy-card glass-card">
-          <div class="phi-icon">🤖</div>
+          <div class="phi-icon"><i data-lucide="cpu" style="width:32px;height:32px;color:var(--accent-teal);"></i></div>
           <h3>Automated Sensor Data</h3>
           <p>7 sensor modalities capturing gait, crepitus, ROM, EMG, temperature, symptoms, and posture — data that's impossible to quantify with a stethoscope.</p>
         </div>
         <div class="philosophy-plus">+</div>
         <div class="philosophy-card glass-card">
-          <div class="phi-icon">👨‍⚕️</div>
+          <div class="phi-icon"><i data-lucide="stethoscope" style="width:32px;height:32px;color:var(--accent-amber);"></i></div>
           <h3>Manual Clinical Data</h3>
           <p>Patient history, physical exam findings, previous imaging, lab results, and clinical judgement — the context only a doctor can provide.</p>
         </div>
@@ -142,7 +142,7 @@
         <!-- Mode 1: Village -->
         <div class="mode-card glass-card glow-card reveal reveal-delay-1">
           <span class="mode-badge">Level 1</span>
-          <div class="mode-icon">🏘️</div>
+          <div class="mode-icon"><i data-lucide="home" style="width:36px;height:36px;color:var(--accent-teal);"></i></div>
           <h3>Village Screening</h3>
           <p class="mode-desc">ASHA worker, no doctor, no lab, no imaging</p>
           <ul class="mode-data-list">
@@ -163,7 +163,7 @@
         <!-- Mode 2: PHC -->
         <div class="mode-card glass-card glow-card reveal reveal-delay-2">
           <span class="mode-badge">Level 2</span>
-          <div class="mode-icon">🏥</div>
+          <div class="mode-icon"><i data-lucide="building-2" style="width:36px;height:36px;color:var(--accent-amber);"></i></div>
           <h3>PHC Clinic</h3>
           <p class="mode-desc">Doctor present at Primary Health Centre</p>
           <ul class="mode-data-list">
@@ -184,7 +184,7 @@
         <!-- Mode 3: Hospital -->
         <div class="mode-card glass-card glow-card reveal reveal-delay-3">
           <span class="mode-badge">Level 3</span>
-          <div class="mode-icon">🏛️</div>
+          <div class="mode-icon"><i data-lucide="building" style="width:36px;height:36px;color:var(--accent-rose);"></i></div>
           <h3>Hospital Referral</h3>
           <p class="mode-desc">Specialist with full diagnostic access</p>
           <ul class="mode-data-list">
@@ -222,8 +222,8 @@
       <div class="fusion-visual reveal">
         <!-- Sensor Data Column -->
         <div class="fusion-col glass-card">
-          <h3 style="margin-bottom:16px; font-size:1rem;">
-            🤖 Automated Sensor Data
+          <h3 style="margin-bottom:16px; font-size:1rem; display:flex; align-items:center;">
+            <i data-lucide="cpu" style="width:18px;height:18px;margin-right:6px;color:var(--accent-teal)"></i> Automated Sensor Data
             <span class="form-badge auto" style="margin-left:8px;">40 features</span>
           </h3>
           <ul class="fusion-list sensors">
@@ -241,8 +241,8 @@
 
         <!-- Manual Data Column -->
         <div class="fusion-col glass-card">
-          <h3 style="margin-bottom:16px; font-size:1rem;">
-            👨‍⚕️ Manual Clinical Data
+          <h3 style="margin-bottom:16px; font-size:1rem; display:flex; align-items:center;">
+            <i data-lucide="stethoscope" style="width:18px;height:18px;margin-right:6px;color:var(--accent-amber)"></i> Manual Clinical Data
             <span class="form-badge manual" style="margin-left:8px;">~26 features</span>
           </h3>
           <ul class="fusion-list manual">
@@ -260,7 +260,9 @@
 
         <!-- Output -->
         <div class="fusion-col glass-card fusion-output">
-          <h3 style="margin-bottom:16px; font-size:1rem;">🧠 AI Fusion Output</h3>
+          <h3 style="margin-bottom:16px; font-size:1rem; display:flex; align-items:center; justify-content:center;">
+            <i data-lucide="brain" style="width:18px;height:18px;margin-right:6px;color:var(--accent-rose)"></i> AI Fusion Output
+          </h3>
           <div class="risk-gauge">
             <div class="score">73</div>
             <div class="score-label">/ 100</div>
@@ -512,13 +514,13 @@
         <p>Hardware sensors provide quantifiable biomarkers. Clinical input provides context no sensor can capture.</p>
       </div>
       <div class="overview-grid">
-        <div class="modality-card glass-card glow-card reveal reveal-delay-1"><div class="modality-icon">📐</div><h4>Gait Kinematics</h4><p>BNO055 IMU ×2 — Antalgic gait & asymmetry</p></div>
-        <div class="modality-card glass-card glow-card reveal reveal-delay-2"><div class="modality-icon">🔊</div><h4>Joint Acoustics</h4><p>Piezo ×2 — Crepitus Angle Map (Novel)</p></div>
-        <div class="modality-card glass-card glow-card reveal reveal-delay-3"><div class="modality-icon">📏</div><h4>Range of Motion</h4><p>Flex sensor 4.5″ — Flexion deficit</p></div>
-        <div class="modality-card glass-card glow-card reveal reveal-delay-4"><div class="modality-icon">💪</div><h4>Muscle Activity</h4><p>ADS1292R sEMG — AMI detection (Novel)</p></div>
-        <div class="modality-card glass-card glow-card reveal reveal-delay-5"><div class="modality-icon">🌡️</div><h4>Inflammation</h4><p>MLX90614 IR ×2 — TMII phenotype (Novel)</p></div>
-        <div class="modality-card glass-card glow-card reveal reveal-delay-6"><div class="modality-icon">📋</div><h4>Symptoms + History</h4><p>KOOS-12 + patient demographics + clinical exam</p></div>
-        <div class="modality-card glass-card glow-card reveal reveal-delay-7"><div class="modality-icon">📷</div><h4>Body Posture</h4><p>Camera + MediaPipe — Varus/valgus alignment</p></div>
+        <div class="modality-card glass-card glow-card reveal reveal-delay-1"><div class="modality-icon"><i data-lucide="footprints" style="width:24px;height:24px;color:var(--accent-teal);"></i></div><h4>Gait Kinematics</h4><p>BNO055 IMU ×2 — Antalgic gait & asymmetry</p></div>
+        <div class="modality-card glass-card glow-card reveal reveal-delay-2"><div class="modality-icon"><i data-lucide="activity-square" style="width:24px;height:24px;color:var(--accent-amber);"></i></div><h4>Joint Acoustics</h4><p>Piezo ×2 — Crepitus Angle Map (Novel)</p></div>
+        <div class="modality-card glass-card glow-card reveal reveal-delay-3"><div class="modality-icon"><i data-lucide="expand" style="width:24px;height:24px;color:var(--accent-rose);"></i></div><h4>Range of Motion</h4><p>Flex sensor 4.5″ — Flexion deficit</p></div>
+        <div class="modality-card glass-card glow-card reveal reveal-delay-4"><div class="modality-icon"><i data-lucide="zap" style="width:24px;height:24px;color:var(--accent-teal);"></i></div><h4>Muscle Activity</h4><p>ADS1292R sEMG — AMI detection (Novel)</p></div>
+        <div class="modality-card glass-card glow-card reveal reveal-delay-5"><div class="modality-icon"><i data-lucide="thermometer" style="width:24px;height:24px;color:var(--accent-amber);"></i></div><h4>Inflammation</h4><p>MLX90614 IR ×2 — TMII phenotype (Novel)</p></div>
+        <div class="modality-card glass-card glow-card reveal reveal-delay-6"><div class="modality-icon"><i data-lucide="clipboard-list" style="width:24px;height:24px;color:var(--accent-rose);"></i></div><h4>Symptoms + History</h4><p>KOOS-12 + patient demographics + clinical exam</p></div>
+        <div class="modality-card glass-card glow-card reveal reveal-delay-7"><div class="modality-icon"><i data-lucide="camera" style="width:24px;height:24px;color:var(--accent-teal);"></i></div><h4>Body Posture</h4><p>Camera + MediaPipe — Varus/valgus alignment</p></div>
       </div>
       <div class="block-diagram-wrapper glass-card reveal" style="padding:0; overflow:hidden;">
         <img src="images/JointSense_Knee_Closeup.jpg" alt="JointSense Knee Sensor Placement" loading="lazy">
@@ -737,7 +739,7 @@
   <!-- ========== FOOTER ========== -->
   <footer class="footer">
     <div class="container">
-      <div class="footer-brand">🦴 <span class="gradient-text">JointSense</span></div>
+      <div class="footer-brand"><i data-lucide="activity" style="width:24px;height:24px;display:inline-block;vertical-align:middle;color:var(--accent-teal);"></i> <span class="gradient-text">JointSense</span></div>
       <p class="footer-tagline">"We bring the specialist to the village — inside a shoulder bag."</p>
       <div class="footer-meta">
         <span>Smart India Hackathon — Problem Statement 26004</span>
